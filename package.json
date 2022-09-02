@@ -1,0 +1,39 @@
+{
+  "name": "cantinaservice",
+  "version": "1.0.0",
+  "description": "organiza relacionamento atendente - cliente da cantina .",
+  "main": "servidor.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env  NODE_ENV=producao  node servidor",
+    "dev": "cross-env NODE_ENV=desenvolvimento nodemon servidor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalven7/SA-project.git"
+  },
+  "keywords": [
+    "senai",
+    "cantina"
+  ],
+  "author": "cantinaservice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kalven7/SA-project/issues"
+  },
+  "homepage": "https://github.com/Kalven7/SA-project#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cross-env": "^7.0.3",
+    "db": "^3.3.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node": "^16.17.0",
+    "nodemon": "^2.0.19",
+    "sequelize": "^6.21.4"
+  }
+}
